@@ -1,0 +1,101 @@
+{
+    "homepage": {
+    "hero": {
+      "title": "Stay Motivated, Stay Focused",
+      "subtitle": "Fuel your journey with daily inspiration and motivation",
+      "button": "Get Started"
+    },
+    "features": {
+      "title": "What We Offer",
+      "feature1": {
+        "title": "Daily Motivation",
+        "description": "Get fresh motivational quotes and messages to uplift your spirit every day."
+      },
+      "feature2": {
+        "title": "Inspiring Stories",
+        "description": "Read stories of people who have overcome challenges and achieved their goals."
+      },
+      "feature3": {
+        "title": "Community Support",
+        "description": "Join a community of like-minded people and grow together on your motivational journey."
+      }
+    },
+    "testimonials": {
+      "title": "What People Say",
+      "testimonial1": {
+        "quote": "This site helped me stay focused during tough times. Highly recommended!",
+        "author": "- Sarah P."
+      },
+      "testimonial2": {
+        "quote": "I love the daily quotes! They brighten up my day and keep me motivated.",
+        "author": "- John D."
+      }
+    }
+  },
+
+    "about": {
+      "title": "About Us",
+      "content": [
+        "At <strong>MotivateMe</strong>, we believe that everyone has the power to achieve greatness. Our mission is to provide daily doses of inspiration and motivation to help you stay focused, committed, and driven towards your goals.",
+
+        "Whether you're facing challenges or just looking for that extra push, our platform is designed to give you the encouragement you need to overcome obstacles and keep moving forward. We bring together a community of passionate individuals who support and uplift one another.",
+        
+        "With carefully curated motivational quotes, stories of resilience, and practical advice, we are here to help you transform your mindset and empower you on your journey to success."
+      ]
+    },
+
+    "service": {
+    "sectionTitle": "Our Services",
+    "introduction": {
+      "text": "At <span class=\"font-bold text-gray-800\">MotivateMe</span>, we offer a wide range of motivational services designed to inspire, empower, and drive success."
+    },
+    "services": {
+      "service1": {
+        "title": "Daily Motivation",
+        "description": "Receive daily inspirational quotes and messages directly to your inbox or through our app to start your day with positivity.",
+        "linkText": "Learn more"
+      },
+      "service2": {
+        "title": "Personal Coaching",
+        "description": "Work with our expert coaches to set and achieve your personal goals. We offer one-on-one sessions tailored to your needs.",
+        "linkText": "Learn more"
+      },
+      "service3": {
+        "title": "Workshops & Seminars",
+        "description": "Join our motivational workshops and seminars that provide strategies for personal growth, success, and resilience.",
+        "linkText": "Learn more"
+      }
+    },
+    "moreServices": {
+      "sectionTitle": "More Services",
+      "service4": {
+        "title": "Motivational Blog",
+        "description": "Explore our blog filled with motivational articles, success stories, and tips on how to maintain focus and positivity.",
+        "linkText": "Read more"
+      },
+      "service5": {
+        "title": "Corporate Programs",
+        "description": "We offer corporate motivational programs to inspire teams, improve productivity, and build strong work cultures.",
+        "linkText": "Learn more"
+      }
+    }
+  },
+
+    "contact": {
+    "title": "Contact Us",
+    "description": "We'd love to hear from you! Please fill out the form below, and we'll get in touch with you as soon as possible.",
+    "form": {
+      "nameLabel": "Name",
+      "namePlaceholder": "Enter your name",
+      "emailLabel": "Email",
+      "emailPlaceholder": "Enter your email",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Write your message here",
+      "submitButton": "Send Message"
+    },
+    "alerts": {
+      "successMessage": "Thank you for reaching out! We'll get back to you soon."
+    }
+  }
+}
+  
