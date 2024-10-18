@@ -18,6 +18,9 @@ export default function Header() {
         <li>
           <Link to="/contact">Contact</Link>
         </li>
+        <li>
+          <Link to="/chart">Chart</Link>
+        </li>
       </ul>
     </header>
   );

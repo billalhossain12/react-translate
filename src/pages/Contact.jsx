@@ -1,5 +1,7 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import styles from "./Contact.module.css";
+import codingImage from "../assets/coding.jpg"
 
 const Contact = () => {
   const { t } = useTranslation(); // Access the translation function
@@ -27,8 +29,9 @@ const Contact = () => {
 
   return (
     <div className="min-h-screen bg-gray-50 flex items-center justify-center px-6 py-12">
+      <img src={codingImage}/>
       <div className="w-full max-w-lg bg-white p-8 rounded-lg shadow-lg">
-        <h1 className="text-3xl font-bold text-gray-800 text-center mb-6">{t('contact.title')}</h1>
+        <h1 className={`text-3xl font-bold text-gray-800 text-center mb-6 ${styles.heading}`}>{t('contact.title')}</h1>
         <p className="text-gray-600 text-center mb-6">{t('contact.description')}</p>
 
         <form onSubmit={handleSubmit} className="space-y-6">

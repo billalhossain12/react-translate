@@ -1,12 +1,13 @@
 import motivationalTeamImg from "../assets/motivational-team.jpg"
 import { useTranslation } from 'react-i18next';
+import styles from './About.module.css'
 const About = () => {
   const { t } = useTranslation(); // Access the translation function
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col">
       {/* About Section */}
       <section className="flex-grow container mx-auto px-6 py-12">
-        <h1 className="text-4xl font-bold text-gray-800 text-center mb-8">{t('about.title')}</h1>
+        <h1 className={`text-4xl font-bold text-gray-800 text-center mb-8 ${styles.heading}`}>{t('about.title')}</h1>
         
         <div className="flex flex-col md:flex-row items-center">
           {/* Image */}
