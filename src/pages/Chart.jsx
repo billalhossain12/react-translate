@@ -1,3 +1,7 @@
+import { useState } from "react";
+import ReactSlider from "react-slider";
+import "./PriceSlider.css";
+
 import {
   BarChart,
   Bar,
@@ -24,21 +28,58 @@ const Chart = () => {
     { year: 2025, principal: 2900, interest: 290 },
   ];
 
+  const [priceRange, setPriceRange] = useState([50, 1200]);
+  console.log(priceRange)
+
   return (
-    <BarChart
-      width={800}
-      height={400}
-      data={data}
-      margin={{ top: 20, right: 30, left: 20, bottom: 5 }}
-    >
-      <CartesianGrid vertical={false} strokeLinejoin="1 1" strokeWidth={1} strokeOpacity={0.5}/>
-      <XAxis dataKey="year" />
-      <YAxis />
-      <Tooltip />
-      <Legend />
-      <Bar dataKey="interest" fill="gold" stackId="a" barSize={20} />
-      <Bar dataKey="principal" fill="green" stackId="a" barSize={20} />
-    </BarChart>
+    <>
+      <BarChart
+        width={800}
+        height={400}
+        data={data}
+        margin={{ top: 20, right: 30, left: 20, bottom: 5 }}
+      >
+        <CartesianGrid
+          vertical={false}
+          strokeLinejoin="1 1"
+          strokeWidth={1}
+          strokeOpacity={0.5}
+        />
+        <XAxis dataKey="year" />
+        <YAxis />
+        <Tooltip />
+        <Legend />
+        <Bar dataKey="interest" fill="gold" stackId="a" barSize={20} />
+        <Bar dataKey="principal" fill="green" stackId="a" barSize={20} />
+      </BarChart>
+
+      <div className="py-[4rem]">
+        <p className="mb-[1.5rem] text-[1.25rem] font-semibold">Price</p>
+        <p className="font-bold text-[1.2rem] mb-5 text-right">{priceRange}</p>
+        <ReactSlider
+          // className="horizontal-slider"
+          // thumbClassName="example-thumb"
+          // trackClassName="example-track"
+          // value={priceRange}
+          // onChange={(newValue) => setPriceRange(newValue)}
+          // renderThumb={(props, state) => (
+          //   <div {...props}>{`₹${state.valueNow}`}</div>
+          // )}
+          // min={50}
+          // max={1200}
+          // minDistance={10}
+
+          className="horizontal-slider"
+          thumbClassName="example-thumb"
+          trackClassName="example-track"
+          min={500}
+          max={10000}
+          defaultValue={1000}
+          minDistance={10}
+          onChange={(newValue) => setPriceRange(newValue)}
+        />
+      </div>
+    </>
   );
 };
 

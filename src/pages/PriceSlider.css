@@ -1,0 +1,34 @@
+.example-thumb{
+    color:#fff;
+    background: #000;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    top:-8px;
+}
+
+
+
+.horizontal-slider .example-track{
+    background: gray;
+    height: 5px;
+    border-radius: 10px;
+}
+.horizontal-slider .example-track{
+    background: gray;
+}
+
+
+.example-track.example-track-0{
+    background: black;
+}
+
+.example-track.example-track-1{
+    background: rgb(185, 183, 183);
+}
