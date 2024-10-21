@@ -1,8 +1,8 @@
 .example-thumb{
     color:#fff;
     background: #000;
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     border-radius: 100%;
     display: flex;
     justify-content: center;
@@ -10,7 +10,17 @@
     font-size: 16px;
     font-weight: bold;
     cursor: pointer;
-    top:-8px;
+    top:-5px;
+    position: relative;
+}
+
+.example-thumb::before{
+    content: '';
+    background: #0000003f;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    border-radius: 100%;
 }
 
 
@@ -31,4 +41,8 @@
 
 .example-track.example-track-1{
     background: rgb(185, 183, 183);
+}
+
+.active-thumb{
+    border: 1px solid black;
 }

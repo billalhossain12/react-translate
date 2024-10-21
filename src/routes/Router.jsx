@@ -5,6 +5,7 @@ import About from "../pages/About";
 import Service from "../pages/Service";
 import Contact from "../pages/Contact";
 import Chart from "../pages/Chart";
+import ScrollAnimationList from "../pages/ScrollAnimationList";
 
 export const router = createBrowserRouter([
   {
@@ -30,6 +31,10 @@ export const router = createBrowserRouter([
       {
         path: "/chart",
         element: <Chart />,
+      },
+      {
+        path: "/animation",
+        element: <ScrollAnimationList />,
       },
     ],
   },

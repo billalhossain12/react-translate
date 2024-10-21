@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import motivationLogo from "../assets/motivation-logo.png"
 
 export default function Header() {
   return (
@@ -20,6 +19,9 @@ export default function Header() {
         </li>
         <li>
           <Link to="/chart">Chart</Link>
+        </li>
+        <li>
+          <Link to="/animation">Animation</Link>
         </li>
       </ul>
     </header>
